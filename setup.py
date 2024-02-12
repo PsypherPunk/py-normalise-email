@@ -11,7 +11,7 @@ setup(
     version="0.1.1",
     author="PsypherPunk",
     author_email="psypherpunk+github@gmail.com",
-    packages=find_packages(include=("normalise.*",)),
+    packages=find_packages(include=("normalise", "normalise.*",)),
     url="https://github.com/PsypherPunk/py-normalise-email",
     description="Python port of normalizeEmail.js.",
     long_description=open("README.md").read(),
