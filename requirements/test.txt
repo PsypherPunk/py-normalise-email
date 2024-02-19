@@ -1,5 +1,5 @@
 -r base.txt
-commitizen==3.14.1
+commitizen==3.15.0
 pre-commit==3.6.1
 pytest==8.0.0
 pytest-cov==4.1.0
