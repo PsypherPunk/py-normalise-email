@@ -1,6 +1,6 @@
 [tool.commitizen]
 name = "cz_customize"
-version = "0.1.17"
+version = "0.1.18"
 version_files = [
     "setup.py",
 ]
