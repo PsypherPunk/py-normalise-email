@@ -8,7 +8,7 @@ with open(pathlib.Path(__file__).parent / "requirements/base.txt") as i:
 
 setup(
     name="normalise-email",
-    version="0.1.20",
+    version="0.1.21",
     author="PsypherPunk",
     author_email="psypherpunk+github@gmail.com",
     packages=find_packages(include=("normalise", "normalise.*",)),
