@@ -1,23 +1,19 @@
 repos:
 -   repo: https://github.com/psf/black
-    rev: 24.1.1
+    rev: 24.4.2
     hooks:
     - id: black
-      language_version: python3.9
+      language_version: python3.12
 -   repo: https://github.com/PyCQA/bandit
-    rev: 1.7.7
+    rev: 1.7.9
     hooks:
     - id: bandit
       args: ["--exclude", "tests/"]
 -   repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.39.0
+    rev: v0.41.0
     hooks:
     - id: markdownlint
 -   repo: https://github.com/PyCQA/isort
     rev: 5.13.2
     hooks:
     - id: isort
--   repo: https://github.com/Lucas-C/pre-commit-hooks-safety
-    rev: v1.3.3
-    hooks:
-    -   id: python-safety-dependencies-check
